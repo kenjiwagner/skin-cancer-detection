@@ -18,7 +18,9 @@
 
 ## Results
 
-| Model | Accuracy |
+Results varied from run to run, depending on random seeds, undersampling, and fold assignment. The table reports each model's **best run**.
+
+| Model | Accuracy (best run) |
 |---|---|
 | ViT, images only (augmented, 20 epochs) | 87.8% |
 | Tabular XGBoost, cross-validated by patient | 90.0% |
